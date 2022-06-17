@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>GameMania :: Carrinho de Compras</title>
+</head>
+
+<body>
+    <div class="d-flex flex-column wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom shadow-sm mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/"><b>GameMania</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Playstation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Xbox</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Nintendo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">PC Gamer</a>
+                        </li>
+                    </ul>
+                    <div class="align-self-end">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/cadastro.html" class="nav-link text-white">Cadastro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/login.html" class="nav-link text-white">Entrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <span class="badge rounded-pill bg-light text-primary position-absolute ms-4 mt-0"
+                                    title="2 produto(s) no carrinho"><small>2</small></span>
+                                    <a href="/carrinho.html" class="nav-link text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                          </svg>
+                                        <i class="bi bi-cart3" style="font-size:20px;line-height:20px;"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="flex-fill">
+            <div class="container">
+                <h1>Carrinho de Compras</h1>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item py-3">
+                        <div class="row g-3">
+                            <div class="col-4 col-md-3 col-lg-2">
+                                <a href="#">
+                                    <img src="/img/produtos/000006.jpg" class="img-thumbnail">
+                                </a>
+                            </div>
+                            <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                                <h4>
+                                    <b><a href="#" class="text-decoration-none text-primary">
+                                            Rise of the Tomb Raider</a></b>
+                                </h4>
+                                <h5>
+                                    Jogo Rise of the Tomb Raider - Xbox One.
+                                </h5>
+                            </div>
+                            <div
+                                class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                                <div class="input-group">
+                                    <button class="btn btn-outline-primary btn-sm" type="button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                                        <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                                        </svg>
+                                        <i class="bi bi-caret-down" style="font-size: 16px; line-height: 16px;"></i>
+                                    </button>
+                                    <input type="text" class="form-control text-center border-primary" value="1">
+                                    <button class="btn btn-outline-primary btn-sm" type="button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+                                            <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z"/>
+                                        </svg>
+                                        <i class="bi-caret-up" style="font-size: 16px; line-height: 16px;"></i>
+                                    </button>
+                                    <button class="btn btn-outline-primary border-primary btn-sm" type="button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                                          </svg>
+                                        <i class="bi-trash" style="font-size: 16px; line-height: 16px;"></i>
+                                    </button>
+                                </div>
+                                <div class="text-end mt-2"><span class="text-dark">Valor Item: R$ 99,90</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item py-3">
+                        <div class="row g-3">
+                            <div class="col-4 col-md-3 col-lg-2">
+                                <a href="#">
+                                    <img src="/img/produtos/000012.jpg" class="img-thumbnail">
+                                </a>
+                            </div>
+                            <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                                <h4>
+                                    <b><a href="#" class="text-decoration-none text-primary">
+                                            Gabinete Gamer</a></b>
+                                </h4>
+                                <h5>
+                                    Gabinete Gamer Cougar Blazer Lateral Vidro Temperado.
+                                </h5>
+                            </div>
+                            <div
+                                class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                                <div class="input-group">
+                                    <button class="btn btn-outline-primary btn-sm" type="button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi		bi-caret-down" viewBox="0 0 16 16">
+                                            <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                                            </svg>
+                                        <i class="bi bi-caret-down" style="font-size: 16px; line-height: 16px;"></i>
+                                    </button>
+                                    <input type="text" class="form-control text-center border-primary" value="1">
+                                    <button class="btn btn-outline-primary btn-sm" type="button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+                                            <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z"/>
+                                        </svg>
+                                        <i class="bi-caret-up" style="font-size: 16px; line-height: 16px;"></i>
+                                    </button>
+                                    <button class="btn btn-outline-primary border-primary btn-sm" type="button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                                          </svg>
+                                        <i class="bi bi-trash" style="font-size: 16px; line-height: 16px;"></i>
+                                    </button>
+                                </div>
+                                <div class="text-end mt-2"><span class="text-dark">Valor Item: R$ 1999,90</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item py-3">
+                        <div class="text-end">
+                            <h4 class="text-dark mb-3">
+                                Valor Total: R$ 2099,80
+                            </h4>
+                            <a href="/index.html" class="btn btn-outline-success btn-lg">
+                                Continuar Comprando                            
+                            </a>
+                            <a href="#" class="btn btn-primary btn-lg ms-2 mt-xs-3">Fechar Compra</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="border-top text-muted bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 text-center">
+                        &copy; 2022 - GameMania - SENAI<br>
+                        Rua Elm Street, 04, Springwood - Ohio<br>
+                        CPNJ 12.345.678/0001-99
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="#" class="text-decoration-none text-dark">
+                            Política de Privacidade
+                        </a><br>
+                        <a href="#" class="text-decoration-none text-dark">
+                            Termos de Uso
+                        </a><br>
+                        <a href="#" class="text-decoration-none text-dark">
+                            Quem Somos
+                        </a><br>
+                        <a href="#" class="text-decoration-none text-dark">
+                            Trocas e Devoluções
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="/contato.html" class="text-decoration-none text-dark">
+                            Fale Conosco
+                        </a><br>
+                        E-mail: <a href="mailto:email@gamemania.com.br" class="text-decoration-none text-dark">
+                            email@gamemania.com.br
+                        </a><br>
+                        Telefone: <a href="phone:11999991111" class="text-decoration-none text-dark">
+                            (11) 99999-1111
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
