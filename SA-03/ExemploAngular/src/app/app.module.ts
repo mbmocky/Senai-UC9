@@ -12,6 +12,10 @@ import { LoginComponent } from './views/login/login.component';
 import { ProdutoComponent } from './views/produto/produto.component';
 import { RecuperarsenhaComponent } from './views/recuperarsenha/recuperarsenha.component';
 import { HomeComponent } from './views/home/home.component';
+import { FormsModule } from '@angular/forms';
+import { IndexComponent } from './views/index/index.component';
+import { FooterComponent } from './views/footer/footer.component';
+import { HeaderComponent } from './views/header/header.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +28,15 @@ import { HomeComponent } from './views/home/home.component';
     LoginComponent,
     ProdutoComponent,
     RecuperarsenhaComponent,
-    HomeComponent
+    HomeComponent,
+    IndexComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

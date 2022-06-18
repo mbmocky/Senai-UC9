@@ -6,12 +6,13 @@ import { ConfirmcontatoComponent } from './views/confirmcontato/confirmcontato.c
 import { ConfirmrecupsenhaComponent } from './views/confirmrecupsenha/confirmrecupsenha.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import { HomeComponent } from './views/home/home.component';
+import { IndexComponent } from './views/index/index.component';
 import { LoginComponent } from './views/login/login.component';
 import { ProdutoComponent } from './views/produto/produto.component';
 import { RecuperarsenhaComponent } from './views/recuperarsenha/recuperarsenha.component';
 
 const routes: Routes = [
-  {path:"", component:HomeComponent},
+  { path: "home", component:HomeComponent},
   { path: 'carrinho', component: CarrinhoComponent},
   { path: 'contato', component: ContatoComponent},
   { path: "login", component: LoginComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: "cadastro", component: CadastroComponent},
   { path: "confirmacao", component: ConfirmcontatoComponent},
   { path: "confirmasenha", component: ConfirmrecupsenhaComponent},
-  { path: "recuperarsenha", component: RecuperarsenhaComponent}
+  { path: "recuperarsenha", component: RecuperarsenhaComponent},
+  { path: "", component: IndexComponent}
 ];
 
 @NgModule({
